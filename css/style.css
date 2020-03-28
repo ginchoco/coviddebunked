@@ -1133,11 +1133,11 @@ body {
     top: 14px;
     font-family: frankfurter-plain;
     color: #fff;
-    font-size: 60px
+    font-size: 45px
 }
 
 #gate-text-1 {
-    left: 37px
+    left: 32px
 }
 
 #gate-text-2,
@@ -1734,11 +1734,11 @@ img {
 }
 
 #plant-ribbon-1 {
-    left: 196px
+    left: 180px
 }
 
 #plant-ribbon-2 {
-    left: 338px
+    left: 350px
 }
 
 #plant-ribbon-3 {
@@ -1746,7 +1746,7 @@ img {
 }
 
 #plant-ribbon-4 {
-    left: 712px
+    left: 740px
 }
 
 .plant-ribbon-left {
@@ -1768,7 +1768,7 @@ img {
     background-color: #f7941d;
     font-family: frankfurter-plain;
     color: #fff;
-    font-size: 24px
+    font-size: 16px
 }
 
 .plant-ribbon-right {
