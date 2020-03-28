@@ -219,7 +219,7 @@ body {
 
 #building-1 {
     left: 0;
-    bottom: 0;
+    bottom: -30px;
     width: 190px;
     height: 500px;
     background-image: url(../image/building-a.png)
@@ -227,7 +227,7 @@ body {
 
 #building-2 {
     left: 305px;
-    bottom: 0;
+    bottom: -30px;
     width: 275px;
     height: 495px;
     background-image: url(../image/building-b.png)
@@ -235,7 +235,7 @@ body {
 
 #building-3 {
     left: 710px;
-    bottom: 0;
+    bottom: -30px;
     width: 190px;
     height: 500px;
     background-image: url(../image/building-c.png)
