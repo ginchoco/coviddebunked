@@ -1130,19 +1130,21 @@ body {
 
 .gate-text {
     position: absolute;
-    top: 25px;
+    top: 30px;
     font-family: frankfurter-plain;
     color: #fff;
-    font-size: 40px
+    font-size: 35px
 }
 
 #gate-text-1 {
-    left: 20px
+    left: 35px
 }
 
-#gate-text-2,
+#gate-text-2 {
+    left: 15px
+}
 #gate-text-3 {
-    left: 32px
+    left: 35px
 }
 
 #gate-text-4 {
