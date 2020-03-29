@@ -223,16 +223,16 @@ body {
 #building-1 {
     left: 0;
     bottom: 0;
-    width: 190px;
-    height: 500px;
+    width: 95px;
+    height: 250px;
     background-image: url(../image/sanitizer.png)
 }
 
 #building-2 {
     left: 305px;
     bottom: -3px;
-    width: 275px;
-    height: 495px;
+    width: 137px;
+    height: 247px;
     background-image: url(../image/building-b.png)
 }
 
