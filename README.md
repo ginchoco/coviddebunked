@@ -1,6 +1,6 @@
 ## Welcome to Covid Debunked!
 
-Built by: Audrea Huang, Gaby Inchoco, Christine Lam, Eugenia Zhang
+Built by: Audrea Huang, Gaby Inchoco, Christine Lam, Eugenia Zhang <br/>
 A team of friends from Wellesley College for their Hoo Hacks 2020 project
 
 ### What is Covid Debunked?
