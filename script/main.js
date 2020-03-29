@@ -430,7 +430,7 @@ function animateNbaPlayerRun() {
 }
 
 function nbaPlayerJump() {
-    clearInterval(nbaPlayerTimer), nbaPlayerCounter = 0, shiftNbaPlayerFrame(2), $(nbaPlayerContainerDiv).stop().animate({
+    clearInterval(nbaPlayerTimer), nbaPlayerCounter = 0, shiftNbaPlayerFrame(3), $(nbaPlayerContainerDiv).stop().animate({
         left: "570px",
         bottom: [200, "easeOutCubic"]
     }, 300, function() {
@@ -439,7 +439,7 @@ function nbaPlayerJump() {
 }
 
 function nbaPlayerFall() {
-    shiftNbaPlayerFrame(3), shakeRim(), bounceBall(), nbaBoardsJump(), animateNbaBoardsContinuously(), $(nbaPlayerContainerDiv).stop().animate({
+    shiftNbaPlayerFrame(4), shakeRim(), bounceBall(), nbaBoardsJump(), animateNbaBoardsContinuously(), $(nbaPlayerContainerDiv).stop().animate({
         left: "450px",
         bottom: [0, "easeInCubic"]
     }, 300, function() {})
