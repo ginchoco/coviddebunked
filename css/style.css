@@ -1342,9 +1342,7 @@ img {
     background-image: url(../image/nba-board-blue.png)
 }
 
-.nba-board-red {
-    background-image: url(../image/nba-board-red.png)
-}
+
 
 #nba-container {
     position: absolute;
