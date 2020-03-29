@@ -675,21 +675,21 @@ body {
 
 .crab {
     position: absolute;
-    width: 130px;
-    height: 89px;
+    width: 125px;
+    height: 75px;
     overflow: hidden;
-    background-image: url(../image/crab.png)
+    background-image: url(../image/virus.png)
 }
 
 .crab-eyes {
     position: absolute;
-    left: 31px;
-    top: 41px;
-    width: 38px;
-    height: 19px;
+    left: 3px;
+    top: 27px;
+    width: 39px;
+    height: 18px;
     opacity: 0;
     filter: alpha(opacity=0);
-    background-image: url(../image/crab-eyes.png)
+    background-image: url(../image/virus-eyes.png)
 }
 
 #crab-ribbon-container-1 {
@@ -1009,19 +1009,19 @@ body {
 
 .fish {
     width: 125px;
-    height: 93px;
+    height: 75px;
     overflow: hidden;
-    background-image: url(../image/fish.png)
+    background-image: url(../image/virus.png)
 }
 
 .fish-eyes {
-    left: 18px;
-    top: 45px;
+    left: 3px;
+    top: 27px;
     width: 39px;
     height: 18px;
     opacity: 0;
     filter: alpha(opacity=0);
-    background-image: url(../image/fish-eyes.png)
+    background-image: url(../image/virus-eyes.png)
 }
 
 #fishes-container {
@@ -2656,7 +2656,7 @@ img {
     width: 125px;
     height: 75px;
     overflow: hidden;
-    background-image: url(../image/turtle.png)
+    background-image: url(../image/virus.png)
 }
 
 .turtle-eyes {
@@ -2667,7 +2667,7 @@ img {
     height: 18px;
     opacity: 0;
     filter: alpha(opacity=0);
-    background-image: url(../image/turtle-eyes.png)
+    background-image: url(../image/virus-eyes.png)
 }
 
 #turtle-ribbon-container-1 {
