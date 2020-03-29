@@ -1124,21 +1124,21 @@ var canAnimateBuildingInformation, buildingLegsTimer, buildingBlinkTimer, animat
     isFishStillAnimating = !1,
     fishAnimateNumber = 0,
     numberOfFishInEachRowArray = new Array;
-numberOfFishInEachRowArray.push(2, 3, 1, 1);
+numberOfFishInEachRowArray.push(2, 2, 1, 1);
 var canAnimateCrabInformation, skill2ContainerDiv = document.getElementById("skill-2-container"),
     crabArray = new Array,
     crabEyeArray = new Array,
     isCrabStillAnimating = !1,
     crabAnimateNumber = 0,
     numberOfCrabInEachRowArray = new Array;
-numberOfCrabInEachRowArray.push(4, 2, 2, 5);
+numberOfCrabInEachRowArray.push(4, 1, 2, 5);
 var canAnimateTurtleInformation, skill3ContainerDiv = document.getElementById("skill-3-container"),
     turtleArray = new Array,
     turtleEyeArray = new Array,
     isTurtleStillAnimating = !1,
     turtleAnimateNumber = 0,
     numberOfTurtleInEachRowArray = new Array;
-numberOfTurtleInEachRowArray.push(3, 2, 2, 2);
+numberOfTurtleInEachRowArray.push(3, 2, 1, 1);
 var isRobbyJumping, isRobbyFalling, swimUpHeight, layersMovement, robbyRightEdge, robbyLeftEdge, robbyMaxHorizontalDistance, canAnimateRobbyRunSwim, robbyStartFrame, robbyStopFrame, shiftRobbyFrameTimer, pageVerticalPositionWhenAnimateRobby1, pageVerticalPositionWhenAnimateRobby2, canAnimateNbaInformation, nbaBoardsCounter, nbaBoardsAnimationTimer, nbaPlayerCounter, nbaPlayerTimer, blinkNbaPlayerTimer, canAnimateSocialContainer, happyRobbyTimer, scrollOrSwipeTextContainerTimer, waterfallTimer, drawFireworkTimer, fireworkCenterX, fireworkCenterY, fireworkOneRadiusDistance, fireworkOneRotationAngle, drawOneLayerOfFireworkTimer, pageVerticalPosition = 0,
     pageVerticalPositionOnTouch = 0,
     previousPageVerticalPosition = 0,
