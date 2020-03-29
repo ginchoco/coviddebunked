@@ -193,8 +193,8 @@ a {
 
 body {
     margin: 0;
-    /* background-image: url("../image/city-skyline.jpg"); 
-    background-repeat: repeat-y; */
+    background-image: url("../image/city-skyline.jpg"); 
+    background-repeat: repeat;
     background-color: #062c59
     
 }
