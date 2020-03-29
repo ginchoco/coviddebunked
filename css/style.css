@@ -223,7 +223,7 @@ body {
 #building-1 {
     left: 0;
     bottom: 0;
-    width: 142px;
+    width: 144px;
     height: 287px;
     background-image: url(../image/sanitizer.png)
 }
@@ -1302,6 +1302,11 @@ img {
     width: 70px;
     height: 70px;
     background-image: url(../image/nba-ball.png)
+}
+
+#nba-board-1 {
+    left: -120px;
+    bottom: 0
 }
 
 #nba-board-2 {
