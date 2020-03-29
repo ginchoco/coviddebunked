@@ -430,7 +430,7 @@ function animateNbaPlayerRun() {
 }
 
 function nbaPlayerJump() {
-    clearInterval(nbaPlayerTimer), nbaPlayerCounter = 0, shiftNbaPlayerFrame(2), $(nbaPlayerContainerDiv).stop().animate({
+    clearInterval(nbaPlayerTimer), nbaPlayerCounter = 0, shiftNbaPlayerFrame(3), $(nbaPlayerContainerDiv).stop().animate({
         left: "570px",
         bottom: [200, "easeOutCubic"]
     }, 300, function() {
@@ -439,7 +439,7 @@ function nbaPlayerJump() {
 }
 
 function nbaPlayerFall() {
-    shiftNbaPlayerFrame(3), shakeRim(), bounceBall(), nbaBoardsJump(), animateNbaBoardsContinuously(), $(nbaPlayerContainerDiv).stop().animate({
+    shiftNbaPlayerFrame(4), shakeRim(), bounceBall(), nbaBoardsJump(), animateNbaBoardsContinuously(), $(nbaPlayerContainerDiv).stop().animate({
         left: "450px",
         bottom: [0, "easeInCubic"]
     }, 300, function() {})
@@ -1124,21 +1124,21 @@ var canAnimateBuildingInformation, buildingLegsTimer, buildingBlinkTimer, animat
     isFishStillAnimating = !1,
     fishAnimateNumber = 0,
     numberOfFishInEachRowArray = new Array;
-numberOfFishInEachRowArray.push(5, 5, 3, 4);
+numberOfFishInEachRowArray.push(2, 2, 1, 1);
 var canAnimateCrabInformation, skill2ContainerDiv = document.getElementById("skill-2-container"),
     crabArray = new Array,
     crabEyeArray = new Array,
     isCrabStillAnimating = !1,
     crabAnimateNumber = 0,
     numberOfCrabInEachRowArray = new Array;
-numberOfCrabInEachRowArray.push(5, 5, 4, 3);
+numberOfCrabInEachRowArray.push(4, 1, 2, 5);
 var canAnimateTurtleInformation, skill3ContainerDiv = document.getElementById("skill-3-container"),
     turtleArray = new Array,
     turtleEyeArray = new Array,
     isTurtleStillAnimating = !1,
     turtleAnimateNumber = 0,
     numberOfTurtleInEachRowArray = new Array;
-numberOfTurtleInEachRowArray.push(3, 2, 2, 2);
+numberOfTurtleInEachRowArray.push(3, 2, 1, 1);
 var isRobbyJumping, isRobbyFalling, swimUpHeight, layersMovement, robbyRightEdge, robbyLeftEdge, robbyMaxHorizontalDistance, canAnimateRobbyRunSwim, robbyStartFrame, robbyStopFrame, shiftRobbyFrameTimer, pageVerticalPositionWhenAnimateRobby1, pageVerticalPositionWhenAnimateRobby2, canAnimateNbaInformation, nbaBoardsCounter, nbaBoardsAnimationTimer, nbaPlayerCounter, nbaPlayerTimer, blinkNbaPlayerTimer, canAnimateSocialContainer, happyRobbyTimer, scrollOrSwipeTextContainerTimer, waterfallTimer, drawFireworkTimer, fireworkCenterX, fireworkCenterY, fireworkOneRadiusDistance, fireworkOneRotationAngle, drawOneLayerOfFireworkTimer, pageVerticalPosition = 0,
     pageVerticalPositionOnTouch = 0,
     previousPageVerticalPosition = 0,
