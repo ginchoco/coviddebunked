@@ -223,7 +223,7 @@ body {
 #building-1 {
     left: 0;
     bottom: 0;
-    width: 140px;
+    width: 142px;
     height: 287px;
     background-image: url(../image/sanitizer.png)
 }
@@ -1304,33 +1304,38 @@ img {
     background-image: url(../image/nba-ball.png)
 }
 
-#nba-board-1 {
+#nba-board-2 {
     left: 0;
     bottom: 0
 }
 
-#nba-board-2 {
+#nba-board-3 {
     left: 120px;
     bottom: 0
 }
 
-#nba-board-3 {
+#nba-board-4 {
     left: 240px;
     bottom: 0
 }
 
-#nba-board-4 {
+#nba-board-5 {
     left: 550px;
     bottom: 0
 }
 
-#nba-board-5 {
+#nba-board-6 {
     left: 670px;
     bottom: 0
 }
 
-#nba-board-6 {
+#nba-board-7 {
     left: 790px;
+    bottom: 0
+}
+
+#nba-board-8 {
+    left: 910px;
     bottom: 0
 }
 
