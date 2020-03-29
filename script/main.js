@@ -1131,7 +1131,7 @@ var canAnimateCrabInformation, skill2ContainerDiv = document.getElementById("ski
     isCrabStillAnimating = !1,
     crabAnimateNumber = 0,
     numberOfCrabInEachRowArray = new Array;
-numberOfCrabInEachRowArray.push(3, 3, 2, 5);
+numberOfCrabInEachRowArray.push(4, 2, 2, 5);
 var canAnimateTurtleInformation, skill3ContainerDiv = document.getElementById("skill-3-container"),
     turtleArray = new Array,
     turtleEyeArray = new Array,
