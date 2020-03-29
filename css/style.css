@@ -193,7 +193,10 @@ a {
 
 body {
     margin: 0;
-    background-color: #00bff3
+    background-image: url("../image/city-skyline.jpg"); 
+    background-repeat: repeat;
+    background-color: #062c59
+    
 }
 
 #boxes {
