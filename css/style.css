@@ -193,10 +193,10 @@ a {
 
 body {
     margin: 0;
-    background-image: url("../image/city-skyline.jpg"); 
+    background-image: url("../image/city-skyline.jpg");
     background-repeat: repeat;
     background-color: #062c59
-    
+
 }
 
 #boxes {
@@ -222,7 +222,7 @@ body {
 
 #building-1 {
     left: 0;
-    bottom: -30px;
+    bottom: 0;
     width: 190px;
     height: 500px;
     background-image: url(../image/building-a.png)
@@ -230,7 +230,7 @@ body {
 
 #building-2 {
     left: 305px;
-    bottom: -30px;
+    bottom: -3px;
     width: 275px;
     height: 495px;
     background-image: url(../image/building-b.png)
@@ -1673,8 +1673,10 @@ img {
 }
 
 #plant-1 {
-    left: 180px;
+    left: 170px;
     top: 65%
+    left: 180px;
+    top: 39%
 }
 
 #plant-2 {
@@ -1701,6 +1703,7 @@ img {
 }
 
 .plant-line {
+    position: absolute;
     width: 100%;
     height: 1px;
     background-color: #fff
@@ -1726,9 +1729,8 @@ img {
     bottom: 13%
 }
 
-.plant-line,
 .plant-ribbon {
-    position: absolute
+    position: absolute;
 }
 
 #plant-ribbon-container {
