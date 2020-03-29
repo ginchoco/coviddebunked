@@ -15,5 +15,5 @@ We used HTML, CSS, and JavaScript to create the front-end web framework after ga
 
 ### Credit & Attribution
 
--Robby Leonardi's Interactive Resume for our visual inspiration http://www.rleonardi.com/interactive-resume/-
+-Robby Leonardi's [Interactive Resume](http://www.rleonardi.com/interactive-resume/) for our visual inspiration
 -LuminousDragonGames for the lava tiles
